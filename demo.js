@@ -1,3 +1,4 @@
+//PodemosAprender semilla OK
 
 //============================================================
 function scr_demo_vozytexto(my) {
