@@ -33,13 +33,13 @@ function scr_demo_vozytexto(my) {
 			my.toSet('idioma', 'es-AR', { children: { cmp: 'Flag', name: 'ar' }, toggle: true }),
 			my.toSet('idioma', 'en-US', { children: { cmp: 'Flag', name: 'us' }, toggle: true }),
 			{ cmp: 'br' },
-			{ cmp: 'Button', onClick: onAccionPalindromo, children: 'ehonoeh'},	
+			{ cmp: 'Button', onClick: onAccionPalindromo, children: 'Palindromo'},	
 			{ cmp: 'Button', onClick: onAccionDictado, children: speech_to_text_estaDictando() ? 'Detener dictado' : 'Comenzar dictado' },
 			{ cmp: 'Button', onClick: onLeemeVos, children: 'Leeme' },
 			my.toSet('Mensaje', '', { children: 'Limpiar' }),
 		];
 	}
-}
+
 function onAccionPalindromo() {
 	const str=({text: my.state.Mensaje});
 	let regex=/[a-z0-9]/gi;
@@ -56,7 +56,7 @@ function onAccionPalindromo() {
 	  }
 	  }
   
-
+}
 function scr_demo_audio(my) {
 	var src = "PodemosAprender.aac";
 	var mediaRec;
