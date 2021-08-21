@@ -1,6 +1,12 @@
 //PodemosAprender semilla OK
 
 //============================================================
+
+
+  function demo_alert(){
+  alert("que hace pibe!");}
+
+
 function scr_demo_vozytexto(my) {
 	my.state = {
 		idioma: 'es-AR',
@@ -49,9 +55,7 @@ function onAccionPalindromo() {
 		my.state={ Mensaje: my.state.Mensaje + ' ' + "no es" };
 	  }
 	  }
-  }
-  function demo(){
-  alert("que hace pibe!");}
+  
 
 function scr_demo_audio(my) {
 	var src = "PodemosAprender.aac";
