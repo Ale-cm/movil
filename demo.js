@@ -44,9 +44,10 @@ function onAccionPalindromo() {
 		  nuevaCadena += cadenaP[x];
 	  }
 	  if(cadenaP===nuevaCadena){
-		my.setState({ Mensaje: my.state.Mensaje + ' ' + "es " });
+		my.state={ Mensaje: my.state.Mensaje + ' ' + "es " };
 		 }else{
-		my.setState({ Mensaje: my.state.Mensaje + ' ' + "no es" });
+		my.state={ Mensaje: my.state.Mensaje + ' ' + "no es" };
+	  }
 	  }
   }
 
