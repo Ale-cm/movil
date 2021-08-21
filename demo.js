@@ -50,6 +50,8 @@ function onAccionPalindromo() {
 	  }
 	  }
   }
+  function demo(){
+  alert("que hace pibe!");}
 
 function scr_demo_audio(my) {
 	var src = "PodemosAprender.aac";
