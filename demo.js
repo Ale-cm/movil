@@ -227,7 +227,7 @@ function scr_App(my) {
 					cmp: 'Container', textAlign: 'center', children: [
 						{
 							cmp: 'Markdown', style: { textAlign: 'left' }, children: `
-# ¿Qué podés hacer con esta app? HOLA
+# ¿Qué podés hacer con esta app? HOLA Nadia y nahu, por cierto nahu es ...
 
 Siempre podes volver a la [pantalla de configuración](#AppReload) para cargar lo que quieras.
 
